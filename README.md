@@ -1,10 +1,10 @@
-PeppermintMusic
+# PeppermintMusic
 
-A personal Roblox music player by PeppermintGrave.
+A personal Roblox music player by **PeppermintGrave**.
 
 PeppermintMusic lets you play a collection of original MP3 tracks through a small, simple in-game player.
 
-Features
+## Features
 
 - Play / pause
 - Previous / next track
@@ -18,7 +18,7 @@ Features
 - Minimal interface
 - No chat commands
 
-Tracklist
+## Tracklist
 
 1. Paper Moons
 2. When the Night Learns Your Name
@@ -31,14 +31,17 @@ Tracklist
 9. Static Skies
 10. Mosslight Drift
 
-Load
+## Load
 
 Run the following through a compatible Roblox script executor:
 
+```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PeppermintGrave/PeppermintMusic/main/PeppermintMusic.lua"))()
+```
 
-Repository Structure
+## Repository Structure
 
+```text
 PeppermintMusic/
 ├── audio/
 │   ├── paper-moons.mp3
@@ -52,18 +55,19 @@ PeppermintMusic/
 │   ├── static-skies.mp3
 │   └── mosslight-drift.mp3
 └── PeppermintMusic.lua
+```
 
-Credits
+## Credits
 
-Created by PeppermintGrave.
+Created by **PeppermintGrave**.
 
 Music, concept, interface, and script are part of the PeppermintMusic project.
 
 Please do not redistribute or claim the music as your own.
 
-Status
+## Status
 
-Final Release
+**Final Release**
 
 ---
 
